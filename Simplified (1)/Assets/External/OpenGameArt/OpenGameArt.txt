@@ -1,0 +1,11 @@
+Name: Zombie Folder
+License: CC0
+https://opengameart.org/content/zombie-rpg-sprites
+
+Name: character.png
+License: CC0
+https://opengameart.org/content/simple-character-base-16x16
+
+Name: BulletCollection.png
+License: CC0
+https://opengameart.org/content/bullet-collection-1-m484
