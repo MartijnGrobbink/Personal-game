@@ -24,6 +24,8 @@ public class Movement : MonoBehaviour
 	public UnityAction onStopMove;
 	public UnityAction onMove;
 
+	public bool collisionWithWall;
+
 	public float SpeedModifier
 	{
 		get { return speedModifier; }
@@ -73,6 +75,8 @@ public class Movement : MonoBehaviour
 			// Tip: It's better to move in the plane that is still possible
 			// It does require some math if you want that to happen (i.e. check for normal and cross)
 			this.direction = Vector3.zero;
+			
+			
 			return;
 		}
 
@@ -84,10 +88,9 @@ public class Movement : MonoBehaviour
 	{
 		if (direction != Vector3.zero)
 			lastDirection = Direction;
-
-		Direction = direction;
+			Direction = direction;
+		
 	}
-
 	public bool IsMoving()
 	{
 		return direction != Vector3.zero;

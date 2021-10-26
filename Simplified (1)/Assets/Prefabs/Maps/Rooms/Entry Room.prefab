@@ -77,6 +77,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 2
+  spawned: 0
 --- !u!61 &1424947380274192360
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -170,6 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 4
+  spawned: 0
 --- !u!61 &715617578669213723
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -361,6 +363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 1
+  spawned: 0
 --- !u!61 &2010678466692160232
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -454,6 +457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 3
+  spawned: 0
 --- !u!61 &4795200016271786335
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -511,6 +515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4234577198330115352}
   - component: {fileID: 810559701848870020}
+  - component: {fileID: -1690009144986157716}
   m_Layer: 0
   m_Name: Entry Room
   m_TagString: Untagged
@@ -550,6 +555,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aad9d76fe2da4d419b8f0d2e7a069f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1690009144986157716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8481848369771327394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea78e84f53d02d74587144eb6380dda3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterlist: []
 --- !u!1001 &443971464236570724
 PrefabInstance:
   m_ObjectHideFlags: 0

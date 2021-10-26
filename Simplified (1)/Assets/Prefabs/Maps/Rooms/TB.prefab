@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 2
+  spawned: 0
 --- !u!61 &1140541800653742205
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -239,6 +240,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6671080030499800263}
   - component: {fileID: -348177156654169713}
+  - component: {fileID: 128172644358949583}
+  - component: {fileID: -4581633938045141897}
   m_Layer: 0
   m_Name: TB
   m_TagString: Untagged
@@ -274,6 +277,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4aad9d76fe2da4d419b8f0d2e7a069f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &128172644358949583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7482610706954004638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea78e84f53d02d74587144eb6380dda3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterlist: []
+--- !u!114 &-4581633938045141897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7482610706954004638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939066104000c2145a8605668bf88fba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8783286258349664153
@@ -322,6 +350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 1
+  spawned: 0
 --- !u!61 &8752774585325407090
 BoxCollider2D:
   m_ObjectHideFlags: 0

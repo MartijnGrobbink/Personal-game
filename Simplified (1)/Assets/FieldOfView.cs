@@ -13,13 +13,20 @@ public class FieldOfView : MonoBehaviour
     public LayerMask targetMask;
     public LayerMask obstructionMask;
 
+    public NewEnemyInput newEnemyInput;
+    public Vector3 ZombieDirection;
     public bool canSeePlayer;
     // Start is called before the first frame update
     private void Start()
     {
         playerRef = GameObject.FindGameObjectWithTag("Player");
-        StartCoroutine(FOVRoutine());
+        newEnemyInput = GetComponent<NewEnemyInput>();
 
+        StartCoroutine(FOVRoutine());
+    }
+    void Update()
+    {
+        ZombieDirection = newEnemyInput.EnemyDirection; 
     }
 
     private IEnumerator FOVRoutine()
@@ -43,7 +50,7 @@ public class FieldOfView : MonoBehaviour
             Transform target = rangeChecks.transform;
             Vector2 directionToTarget = (target.position - transform.position).normalized;
 
-            if(Vector2.Angle(transform.up, directionToTarget) < angle / 2)
+            if(Vector2.Angle(newEnemyInput.EnemyDirection, directionToTarget) < angle / 2)
             {
                 float distanceToTarget = Vector2.Distance(transform.position, target.position);
 
@@ -57,10 +64,5 @@ public class FieldOfView : MonoBehaviour
         }
         else if (canSeePlayer)
             canSeePlayer = false;
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
