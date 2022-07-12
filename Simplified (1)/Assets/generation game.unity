@@ -380,7 +380,7 @@ MonoBehaviour:
   rooms: []
   waitTime: 0.5
   boss: {fileID: 0}
-  minRooms: 20
+  minRooms: 15
   reset: 0
 --- !u!4 &807673100
 Transform:

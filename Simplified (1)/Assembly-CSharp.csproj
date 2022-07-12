@@ -56,25 +56,28 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Components\Scripts\Data\RoomData.cs" />
-    <Compile Include="Assets\Components\Scripts\Data\MonsterManager.cs" />
-    <Compile Include="Assets\Components\Scripts\Managers\RoomTemplates.cs" />
-    <Compile Include="Assets\Components\Scripts\EnemyAI\NewZombie.cs" />
-    <Compile Include="Assets\Components\Scripts\Data\PlayerInput.cs" />
-    <Compile Include="Assets\Components\Scripts\Weapon\Weapon.cs" />
-    <Compile Include="Assets\Components\Scripts\Weapon\FireBolt.cs" />
-    <Compile Include="Assets\Components\Scripts\Health\NewHealth.cs" />
-    <Compile Include="Assets\Components\Scripts\Weapon\WeaponDirection.cs" />
-    <Compile Include="Assets\Components\Scripts\FireSystem\FireDamageTile.cs" />
-    <Compile Include="Assets\Components\Scripts\Spawners\RoomSpawner.cs" />
-    <Compile Include="Assets\Components\Scripts\EnemyAI\FieldOfView.cs" />
-    <Compile Include="Assets\Components\Scripts\FireSystem\Fire.cs" />
-    <Compile Include="Assets\Components\Scripts\Movement\Animations.cs" />
-    <Compile Include="Assets\Components\Scripts\Spawners\MonsterSpawner.cs" />
-    <Compile Include="Assets\Components\Scripts\Movement\Movement.cs" />
-    <Compile Include="Assets\Components\Scripts\Managers\AddRooms.cs" />
-    <Compile Include="Assets\Components\Scripts\Health\HealthBar.cs" />
-    <Compile Include="Assets\Components\Scripts\EnemyAI\NewEnemyInput.cs" />
+    <Compile Include="Assets\Components\Managers\CameraManager.cs" />
+    <Compile Include="Assets\RoomData.cs" />
+    <Compile Include="Assets\MonsterManager.cs" />
+    <Compile Include="Assets\Components\Managers\RoomTemplates.cs" />
+    <Compile Include="Assets\Components\Actors\NewZombie.cs" />
+    <Compile Include="Assets\Components\Actors\Zombie.cs" />
+    <Compile Include="Assets\Components\Actors\Brain.cs" />
+    <Compile Include="Assets\Components\Actors\PlayerInput.cs" />
+    <Compile Include="Assets\Components\Actors\EnemyInput.cs" />
+    <Compile Include="Assets\Components\Managers\Grid.cs" />
+    <Compile Include="Assets\Components\Procedural\Tile.cs" />
+    <Compile Include="Assets\Components\Procedural\RoomSpawner.cs" />
+    <Compile Include="Assets\FieldOfView.cs" />
+    <Compile Include="Assets\Components\Actors\Animations.cs" />
+    <Compile Include="Assets\Components\Managers\GameManager.cs" />
+    <Compile Include="Assets\Components\Actors\Health.cs" />
+    <Compile Include="Assets\MonsterSpawner.cs" />
+    <Compile Include="Assets\Components\Actors\Movement.cs" />
+    <Compile Include="Assets\Components\Managers\AddRooms.cs" />
+    <Compile Include="Assets\Components\Procedural\Roll.cs" />
+    <Compile Include="Assets\Components\Spawn\Spawner.cs" />
+    <Compile Include="Assets\Components\Actors\NewEnemyInput.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\External\itch.io\TX TileSet\TX TileSet origin.txt" />
