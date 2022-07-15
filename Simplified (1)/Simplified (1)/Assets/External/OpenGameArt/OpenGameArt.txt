@@ -1,0 +1,19 @@
+Name: Zombie Folder
+License: CC0
+https://opengameart.org/content/zombie-rpg-sprites
+
+Name: character.png
+License: CC0
+https://opengameart.org/content/simple-character-base-16x16
+
+Name: BulletCollection.png
+License: CC0
+https://opengameart.org/content/bullet-collection-1-m484
+
+Name: Fx_pack
+License: CC0
+https://xyezawr.itch.io/free
+
+Name: Mini Fires 2
+License: CC0
+https://xyezawr.itch.io/free-pixel-effects-pack-10-mini-magick-shoots2?download
